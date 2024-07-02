@@ -52,7 +52,6 @@ export const COMMON_DYNAMIC_CONTENT_PLACEHOLDERS = [
   'default_banner_facebook_title',
   'default_banner_instagram_title',
   'default_linkedin_label',
-  'default_banner_whatsapp_title',
   'default_banner_telegram_title',
   'default_banner_tiktok_title',
   'default_banner_twitter_title',
@@ -78,7 +77,6 @@ export const HOME_PAGE_DYNAMIC_CONTENT_PLACEHOLDERS = [
   'default_banner_social_media_description',
   'default_banner_facebook_title',
   'default_banner_messenger_title',
-  'default_banner_whatsapp_title',
   'Kade_Nafham_facebook_link',
   'Kade_Nafham_messenger_link',
   // Main body strings.
@@ -133,11 +131,6 @@ export function populateSocialMediaLinks(dynamicContent: {
     facebookLink: {
       title: dynamicContent['default_banner_facebook_title'],
       href: dynamicContent['Kade_Nafham_facebook_link'],
-    },
-    whatsappLink: {
-      title: dynamicContent['default_banner_whatsapp_title'],
-      // TODO: create Dynamic content with link to Whatsapp page
-      href: '', // dynamicContent['<site_prefix>_whatsapp_link']
     },
     messengerLink: {
       title: dynamicContent['default_banner_messenger_title'],
@@ -429,7 +422,6 @@ export function populateServiceContentStrings(dynamicContent: {
       TikTok: dynamicContent['default_banner_tiktok_title'],
       Twitter: dynamicContent['default_banner_twitter_title'],
       Viber: dynamicContent['default_banner_viber_title'],
-      Whatsapp: dynamicContent['default_banner_whatsapp_title'],
       Website: dynamicContent['default_banner_website_title'],
     },
     openingHoursStrings: {
