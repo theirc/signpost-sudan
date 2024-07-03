@@ -4,6 +4,16 @@ function Document() {
   return (
     <Html>
       <Head>
+        <meta
+          name="google-site-verification"
+          content="Vy7yd8wg5KVr3uf_sYnu7HtlZseyo6zDwlVfWoArzpI"
+        />
+        <meta property="og:title" content="Kade Nafham" />
+        <meta property="og:description" content="Kade Nafham Website" />
+        <meta
+          property="og:image"
+          content="https://kadenafham.info/api/og-image"
+        />
         <script
           src="https://kit.fontawesome.com/027db3ea3f.js"
           crossOrigin="anonymous"

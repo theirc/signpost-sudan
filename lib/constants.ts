@@ -67,7 +67,7 @@ export const ALGOLIA_SEARCH_API_KEY_WRITE =
 // See README for more info on how to create indexes.
 export const ALGOLIA_ARTICLE_INDEX_NAME = 'zendesk_signpost-sudan_articles';
 export const ALGOLIA_QUERY_INDEX_NAME =
-  'zendesk_signpost-afghanistan_articles_query_suggestions';
+  'zendesk_signpost-sudan_articles_query_suggestions';
 
 export const SEARCH_BAR_INDEX: AlgoliaSearchIndex = {
   appId: ALGOLIA_SEARCH_APP_ID,
