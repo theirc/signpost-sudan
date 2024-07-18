@@ -4,10 +4,7 @@ function Document() {
   return (
     <Html>
       <Head>
-        <meta
-          name="google-site-verification"
-          content="Vy7yd8wg5KVr3uf_sYnu7HtlZseyo6zDwlVfWoArzpI"
-        />
+        <meta name="google-site-verification" content="I9LrT75kWpClYPZHxe-quXvzQQdJEjBeL7j6gs2Qiuc" />
         <meta property="og:title" content="Kade Nafham" />
         <meta property="og:description" content="Kade Nafham Website" />
         <meta
