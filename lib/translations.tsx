@@ -77,8 +77,14 @@ export const HOME_PAGE_DYNAMIC_CONTENT_PLACEHOLDERS = [
   'default_banner_social_media_description',
   'default_banner_facebook_title',
   'default_banner_messenger_title',
+  'default_banner_whatsapp_title',
+  'default_banner_email_title',
+  'default_banner_hotline_title',
   'Kade_Nafham_facebook_link',
   'Kade_Nafham_messenger_link',
+  'kadenafham_whatsapp_link',
+  'kadenafham_email_link',
+  'kadenafham_hotline_link',
   // Main body strings.
   'default_information_title',
   'kade_nafham_information_description',
@@ -135,6 +141,18 @@ export function populateSocialMediaLinks(dynamicContent: {
     messengerLink: {
       title: dynamicContent['default_banner_messenger_title'],
       href: dynamicContent['Kade_Nafham_messenger_link'],
+    },
+     whatsappLink: {
+      title: dynamicContent['default_banner_whatsapp_title'],
+      href: dynamicContent['kadenafham_whatsapp_link'],
+    },
+    emailLink: {
+      title: dynamicContent['default_banner_email_title'],
+      href: dynamicContent['kadenafham_email_link'],
+    },
+    hotlineLink: {
+      title: dynamicContent['default_banner_hotline_title'],
+      href: dynamicContent['kadenafham_hotline_link'],
     },
   };
 }
